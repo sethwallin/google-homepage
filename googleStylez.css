@@ -46,29 +46,54 @@ body {
 	margin-right: 5px;
 }
 
-footer {
+header, footer {
 	position: absolute;
-	bottom: 0;
 	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+footer {
+	bottom: 0;
 	background-color: #f7f6f6;
 	border-top: 0.5px solid #ececec;
+	color: gray;
 }
 
 .left, .right {
-	color: gray;
 	font-size: 9.5pt;
+	padding: 15px;
 }
 
 .left:hover, .right:hover {
 	text-decoration: underline;
 }
 
-footer .left {
+.left {
 	float: left;
-	padding: 15px;
 }
 
-footer .right{
+.right {
 	float: right;
-	padding: 15px;
+}
+
+header {
+	top: 10px;
+	color: black;
+}
+
+.signin {
+	background-color: #508aef;
+	color: white;
+	border-radius: 3px;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 5px;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.signin:hover {
+	text-decoration: none;
 }
